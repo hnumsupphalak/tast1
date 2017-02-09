@@ -7,8 +7,6 @@ public class Water {
     
     int Water = 0;
     double Total = 0;
-
-      
       
     System.out.print(" ป้อนจำนวนที่ใช้น้ำ(ต่อหน่วย) :  ");
       Water = Scan.nextInt();
