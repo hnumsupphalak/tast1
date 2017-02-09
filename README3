@@ -5,7 +5,7 @@ public class Work29 {
      Scanner Scan = new Scanner(System.in);
      System.out.print("จำนวนชั่วโมง = ");
      hour = Scan.nextInt();
-     if (hour < 2){
+     if (hour < 3){
        price = 0;
         System.out.println("ไม่เสียค่าจอดรถ");
      }else if (hour < 6){
