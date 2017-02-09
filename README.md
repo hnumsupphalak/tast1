@@ -11,7 +11,7 @@ public class Water {
     System.out.print(" ป้อนจำนวนที่ใช้น้ำ(ต่อหน่วย) :  ");
       Water = Scan.nextInt();
       
-      if ( Water <= 50) {
+      if ( Water <= 30) {
        Total =  Water  * 4.25;
       } else if (Water <= 100) {
        Total =  Water  *  3.25;
