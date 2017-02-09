@@ -3,7 +3,7 @@ public class Production {
      int product = 2000;
      int year = 0;
      while (product <= 5000) {
-        product = product + 365;
+        product = product + 366;
         year++;
         System.out.println("ปีที่ = " + year);
         System.out.println("สินค้าส่งออก = " + product);
